@@ -27,7 +27,7 @@ def home(request):
 
     day = datetime.date.today()
 
-    return render(request, 'mywheatherapp/index.html', {
+    return render(request, 'index.html', {
         'description': description,
         'icon': icon,
         'temp': temp,
